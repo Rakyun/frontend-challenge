@@ -3,7 +3,7 @@ import zeptolabLogo from "../assets/zeptolabLogo.png";
 import pattern from   "../assets/pattern.png";
 const Layer1 = () => {
   return (
-    <main className="flex w-full justify-center ">
+    <main className="flex w-full justify-center pb-20 ">
       <section className="justify-center items-center flex  w-[990px] ">
         <article className="w-[28rem]">
           <img src={layer1Icon} className="relative top-44 left-60 -z-10" />
