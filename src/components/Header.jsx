@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <header className="flex justify-between px-16  bg-[#685DC5] relative w-full h-20 items-center">
       <div className="items-center justify-center rounded-full bg-[#4FA16C] w-32  h-32 flex absolute right-40 top-3 shadow-md">
-        <p className="text-white font-semibold text-center text-xl w-24 h-14 ">
+        <p className="cursor-pointer text-white font-semibold text-center text-xl w-24 h-14 ">
           APPLY NOW
         </p>
       </div>
@@ -14,7 +14,7 @@ const Header = () => {
           /INTERACTION DESIGN
         </span>
       </div>
-      <img src={headerIcon} className="w-10" />
+      <img src={headerIcon} alt="HeaderIcon" className="w-10 cursor-pointer" />
     </header>
   );
 };
