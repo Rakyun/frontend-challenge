@@ -1,9 +1,11 @@
 import Header from "./components/Header";
+import Layer1 from "./components/Layer1";
 
 const App = () => {
   return (
     <div className="font-body">
-      <Header />
+      <Header /> 
+      <Layer1/>
     </div>
   );
 };
