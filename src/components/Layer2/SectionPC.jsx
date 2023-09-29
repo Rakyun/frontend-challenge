@@ -2,7 +2,7 @@ import patternCircle from "../../assets/pattern_circle.png";
 import personPhoto from "../../assets/personPhoto.png";
 const SectionPC = () => {
   return (
-    <div className="hidden w-[70%] lg:flex flex-col items-center justify-center ">
+    <div className="hidden w-[70%] lg:flex lg:scale-90 xl:scale-100 flex-col items-center justify-center ">
       <div className="flex  w-[1100px] mb-12">
         <div className="relative mr-32">
           <img src={patternCircle} alt="circle pattern" className="w-96"></img>

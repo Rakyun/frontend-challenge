@@ -50,7 +50,7 @@ const Layer1 = () => {
         <img
           src={pattern}
           alt="Pattern"
-          className="hidden lg:block relative top-[37rem] left-32 w-[500px]  -z-10  "
+          className="hidden lg:block relative top-[34rem] left-12 w-[400px]  -z-10  "
         />
         <div className="w-[28rem]">
           <div className="flex items-center mb-10">
