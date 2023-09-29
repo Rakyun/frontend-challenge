@@ -7,10 +7,11 @@ const Layer3 = () => {
       <img
         src={PatternBig}
         alt="patternBig"
-        className="w-[1100px] h-[500px] absolute -z-10 scale-x-125 scale-y-100 bottom-[27rem] "
+        className="hidden md:block w-screen h-[500px] absolute -z-10  scale-y-100 bottom-[27rem]  "
       />
-      <div className="h-[600px] w-[1000px] border border-solid border-[#DADADA] ">
-        <div className="flex w-full h-[30%] bg-white  items-center justify-between px-20 ">
+      <div className="block md:hidden w-screen h-[500px] absolute -z-20  bottom-[27rem]  bg-[#685DC5]"></div>
+      <div className="h-[600px] w-[450px] md:w-[800px] border border-solid border-[#DADADA] ">
+        <div className="flex w-full h-[30%] bg-white  items-center justify-between px-2 md:px-20 ">
           <div className="flex items-center">
             <img
               src={profilePic}
