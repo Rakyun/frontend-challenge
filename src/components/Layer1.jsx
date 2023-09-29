@@ -1,12 +1,12 @@
 import layer1Icon from "../assets/layer1Icon.png";
 import zeptolabLogo from "../assets/zeptolabLogo.png";
-import pattern from   "../assets/pattern.png";
+import pattern from "../assets/pattern.png";
 const Layer1 = () => {
   return (
     <main className="flex w-full justify-center pb-20 ">
-      <section className="justify-center items-center flex  w-[990px] ">
+      <section className="justify-center items-center flex  w-[990px]  ">
         <article className="w-[28rem]">
-          <img src={layer1Icon} className="relative top-44 left-60 -z-10" />
+          <img src={layer1Icon} className="select-none relative top-44 left-60 -z-10" />
           <p className="leading-tight text-[#685DC5] text-5xl font-bold ">
             Interaction Design Apprenticeship
           </p>
@@ -21,28 +21,33 @@ const Layer1 = () => {
           <p className="text-[#535353] text-xl mb-12">
             <span className="font-bold">Position: </span>Marketing Performance
           </p>
-          <button className="cursor-pointer py-4 px-10  text-white bg-[#685DC5] rounded-full">
+          <button className="cursor-pointer py-4 px-10  text-white bg-[#685DC5] rounded-full hover:opacity-80 active:opacity-50 transition-all">
             Apply Now
           </button>
         </article>
       </section>
 
       <section className=" items-center flex flex-col w-[990px]  pt-10">
-      <img src={pattern} alt="Pattern" className="relative top-[37rem] left-32 w-[500px]  -z-10  " />
+        <img
+          src={pattern}
+          alt="Pattern"
+          className="select-none relative top-[37rem] left-32 w-[500px]  -z-10  "
+        />
         <div className="w-[28rem]">
           <div className="flex items-center mb-10">
-            <img src={zeptolabLogo} alt="ZeptoLogo" className="mr-7" />
+            <img src={zeptolabLogo} alt="ZeptoLogo" className="select-none mr-7" />
             <div className="text-[#535353]">
               <p className="text-lg">Powered by:</p>
               <p className="text-2xl">Zeptolab</p>
             </div>
           </div>
 
-          <div className="flex justify-center w-full p-6 border-2 rounded-[4px] mb-7 bg-white">
+          <div className="flex justify-center w-full p-6 border-2  rounded-[4px] mb-7 bg-white">
             <div>
               <p className="text-[#685DC5] font-bold mb-2">
                 Application closes in
               </p>
+
               <p className="text-2xl text-[#535353] ">
                 6 Day : 22 Hrs : 56 Min : 13 Sec
               </p>

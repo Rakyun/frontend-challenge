@@ -4,13 +4,13 @@ import linkedIn from "../assets/linkedIn.png";
 const Layer3 = () => {
   return (
     <div className="w-full flex px-9 py-48 justify-center relative">
-          <img
-          src={PatternBig}
-          alt="patternBig"
-          className="w-[1100px] h-[500px] absolute -z-10 scale-x-125 scale-y-100 bottom-[27rem] a"
-        />
+      <img
+        src={PatternBig}
+        alt="patternBig"
+        className="w-[1100px] h-[500px] absolute -z-10 scale-x-125 scale-y-100 bottom-[27rem] "
+      />
       <div className="h-[600px] w-[1000px] border border-solid border-[#DADADA] ">
-        <div className="w-full h-[30%] bg-white flex items-center justify-between px-20 ">
+        <div className="flex w-full h-[30%] bg-white  items-center justify-between px-20 ">
           <div className="flex items-center">
             <img
               src={profilePic}
