@@ -58,7 +58,7 @@ const SectionMobile = () => {
         </section>
 
 
-      <section className="w-full flex flex-col items-center border border-[#DADADA] rounded-md py-10 mb-10 bg-white">
+      <section className="sm:hover:scale-105 transition-all duration-500 w-full flex flex-col items-center border border-[#DADADA] rounded-md py-10 mb-10 bg-white">
         <div className="w-[80%]  ">
           <p className="text-[#685DC5] font-bold mb-3 text-lg">
             Study commitment
@@ -74,7 +74,7 @@ const SectionMobile = () => {
 
       
 
-      <section className="w-full flex flex-col items-center border border-[#DADADA] rounded-md py-6 mb-10 bg-white">
+      <section className="sm:hover:scale-105 transition-all duration-500 w-full flex flex-col items-center border border-[#DADADA] rounded-md py-6 mb-10 bg-white">
         <div className="w-[80%]  pt-7">
           <p className="text-[#685DC5] font-bold mb-3 text-lg">
             Work commitment
@@ -93,7 +93,7 @@ const SectionMobile = () => {
         <legend className="px-3 font-bold text-[#535353]">GRADUATION</legend>
       </fieldset>
 
-      <section className="w-full flex flex-col items-center border border-[#DADADA] rounded-md py-6 mb-10 bg-white">
+      <section className="sm:hover:scale-105 transition-all duration-500 w-full flex flex-col items-center border border-[#DADADA] rounded-md py-6 mb-10 bg-white">
         <div className="w-[80%]  pt-7">
           <p className="text-[#685DC5] font-bold mb-3 text-lg">
             A Full-Time Contract
