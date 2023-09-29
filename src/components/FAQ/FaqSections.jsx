@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const FaqItems = (props) => {
+const FaqSections = (props) => {
   const [open, setOpen] = useState(false);
 
   return (
@@ -32,4 +32,4 @@ const FaqItems = (props) => {
   );
 };
 
-export default FaqItems;
+export default FaqSections;

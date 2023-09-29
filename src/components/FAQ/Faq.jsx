@@ -1,5 +1,5 @@
 import { useState } from "react";
-import FaqItems from "./faqItems";
+import FaqSections from "./FaqSections";
 
 const Faq = () => {
   const [dropValue, setDropValue] = useState("Program conditions");
@@ -60,7 +60,7 @@ const Faq = () => {
           </div>
         </div>
         {filteredItems.map((item, index) => (
-          <FaqItems
+          <FaqSections
             question={item.faqQuestion}
             answer={item.faqAnswer}
             type={item.faqType}
