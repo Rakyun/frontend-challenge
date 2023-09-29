@@ -9,7 +9,7 @@ const FaqSections = (props) => {
         !open && "items-center"
       }`}
     >
-      <p className="text-[#685DC5] font-bold w-[20%] text-lg mr-16 ">
+      <p className="hidden md:block text-[#685DC5] font-bold w-[20%] text-lg mr-16 ">
         {props.type}
       </p>
       <div className="text-[#6A6A6A]  w-[50%] ">
