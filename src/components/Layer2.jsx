@@ -21,7 +21,7 @@ const Layer2 = () => {
             Our scholarships are designed to give talented and driven young
             people from any background access to top-class education, experience
             and network. We offer a fully-funded master’s degree alongside an
-            apprenticeship and a guaranteed job upon graduation.{" "}
+            apprenticeship and a guaranteed job upon graduation.
           </p>
         </div>
       </div>

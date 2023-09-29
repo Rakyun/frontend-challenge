@@ -2,13 +2,13 @@ import headerIcon from "../assets/headerIcon.png";
 
 const Header = () => {
   return (
-    <header className="flex justify-between px-16  bg-[#685DC5] relative w-full h-20 items-center">
-      <div className="items-center justify-center rounded-full bg-[#4FA16C] w-32  h-32 flex absolute right-40 top-3 shadow-md">
-        <p className="cursor-pointer text-white font-semibold text-center text-xl w-24 h-14 ">
+    <header className="flex justify-between px-9 sm:px-16  bg-[#685DC5] relative w-full h-20 items-center">
+      <div className="hidden md:flex transition-all hover:scale-105 duration-200 items-center justify-center rounded-full bg-[#4FA16C] w-32  h-32 absolute right-40 top-3 shadow-md">
+        <p className="cursor-pointer text-white font-semibold text-center text-xl w-24 h-14  ">
           APPLY NOW
         </p>
       </div>
-      <div className="flex text-white items-start  ">
+      <div className="select-none flex text-white items-start  ">
         <span className="text-xl font-bold mr-2  ">HARBOUR.SPACE</span>
         <span className="relative  text-md top-[2px] ">
           /INTERACTION DESIGN
