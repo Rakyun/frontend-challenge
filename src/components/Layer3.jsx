@@ -3,7 +3,7 @@ import profilePic from "../assets/profilePic.png";
 import linkedIn from "../assets/linkedIn.png";
 const Layer3 = () => {
   return (
-    <div className="w-full flex px-9 py-48 justify-center relative">
+    <div className="w-screen  flex px-9 py-48 justify-center relative">
       <img
         src={PatternBig}
         alt="patternBig"
@@ -29,9 +29,9 @@ const Layer3 = () => {
             className="w-[40px] h-[40px] mr-5"
           />
         </div>
-        <div className="w-full h-[70%] bg-[#FBFBFB] flex justify-center items-center">
+        <div className="w-full h-[70%] bg-[#FBFBFB] flex justify-center items-center px-5">
           <div className="w-[41rem]">
-            <p className="text-3xl  text-[#6A6A6A] mb-10">
+            <p className="text-xl md:text-3xl  text-[#6A6A6A] mb-10">
               This Fellowship was a turning point in my career. I wouldn’t be
               where I am today without the financial support and experienced
               offered through the program.

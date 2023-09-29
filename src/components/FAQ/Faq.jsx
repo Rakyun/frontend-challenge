@@ -39,20 +39,20 @@ const Faq = () => {
   });
 
   return (
-    <div className="w-full flex justify-center pb-32">
+    <div className="w-screen  flex justify-center pb-32">
       <div className="flex flex-col w-[80%]">
-        <div className="w-full flex justify-between items-center border-b py-10 ">
-          <p className="text-[#685DC5] text-5xl font-bold w-96">
+        <div className="w-full  flex flex-col md:flex-row md:justify-between md:items-center border-b py-10 ">
+          <p className="text-[#685DC5] text-3xl  font-bold  md:w-96 mb-10 md:mb-0 mr-5">
             Frequently asked questions
           </p>
-          <div className="flex items-center text-xl text-[#6A6A6A]">
-            <h1 className="mr-5">Filter by:</h1>
+          <div className="flex md:flex-row flex-col md:items-center text-xl text-[#6A6A6A] ">
+            <h1 className="mr-5 mb-5">Filter by:</h1>
             <select
               onChange={(e) => {
                 setDropValue(e.target.value);
               }}
               defaultValue={dropValue}
-              className=" transition-all w-64 h-[70px] px-4 rounded-full border border-solid border-[#DADADA] text-[#685DC5] font-bold  focus:outline-none focus:ring ring-[#685DC5] "
+              className=" transition-all w-64  h-[70px] px-4 rounded-full border border-solid border-[#DADADA] text-[#685DC5] font-bold  focus:outline-none focus:ring ring-[#685DC5] "
             >
               <option value="Program conditions">Program conditions</option>
               <option value="Others">Others</option>
