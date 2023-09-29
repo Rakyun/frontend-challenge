@@ -5,11 +5,11 @@ const Layer1 = () => {
   return (
     <main className="flex w-screen justify-center items-center pb-20 flex-col-reverse lg:flex-row ">
 
-      <section className="justify-center items-center flex   w-[50%] ">
+      <section className="justify-center items-center flex z-[99]   w-[50%] ">
         <article className="w-[28rem]">
           <img
             src={layer1Icon}
-            className="select-none relative top-44 left-60 -z-10 hidden lg:block"
+            className=" relative top-44 left-60 -z-10 hidden lg:block"
           />
           <p className="hidden lg:block leading-tight text-[#685DC5] text-5xl font-bold ">
             Interaction Design Apprenticeship
@@ -44,7 +44,7 @@ const Layer1 = () => {
         </p>
         <img
             src={layer1Icon}
-            className="select-none absolute top-0 right-32 -z-10 w-44 "
+            className=" absolute top-0 right-32 -z-10 w-44 "
           />
           </div>
         <img
@@ -57,7 +57,7 @@ const Layer1 = () => {
             <img
               src={zeptolabLogo}
               alt="ZeptoLogo"
-              className="select-none mr-7"
+              className=" mr-7"
             />
             <div className="text-[#535353]">
               <p className="text-lg">Powered by:</p>
