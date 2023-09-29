@@ -28,7 +28,7 @@ const SectionPC = () => {
 
       <div className="hidden  flex-col items-center lg:grid lg:grid-cols-3 lg:grid-row-3  lg:grid-flow-col gap-x-10 gap-y-8 w-[1090px] max-h-[650px]">
         <section className="hover:scale-105 transition-all duration-500 h-[650px] divide-y divide-[#DADADA] flex flex-col items-center row-span-3 col-span-1  border border-[#DADADA] rounded-md">
-          <div className="w-[80%] h-[48%] pt-7">
+          <div className="w-[80%] h-[51%] pt-7">
             <p className="text-[#685DC5] font-bold mb-7 text-lg">
               Scholarship value
             </p>
