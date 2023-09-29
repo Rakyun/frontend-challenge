@@ -1,8 +1,8 @@
-import patternCircle from "../assets/pattern_circle.png";
-import personPhoto from "../assets/personPhoto.png";
-const Layer2 = () => {
+import patternCircle from "../../assets/pattern_circle.png";
+import personPhoto from "../../assets/personPhoto.png";
+const SectionPC = () => {
   return (
-    <section className="flex w-full flex-col items-center justify-center py-32 ">
+    <div className="hidden w-[70%] lg:flex flex-col items-center justify-center ">
       <div className="flex  w-[1100px] mb-12">
         <div className="relative mr-32">
           <img src={patternCircle} alt="circle pattern" className="w-96"></img>
@@ -26,9 +26,9 @@ const Layer2 = () => {
         </div>
       </div>
 
-      <div className="grid grid-cols-3 grid-row-3  grid-flow-col gap-10 w-[1100px] h-[650px]">
-        <section className="h-[621px] divide-y divide-[#DADADA] flex flex-col items-center row-span-3 col-span-1  border border-[#DADADA] rounded-md">
-          <div className="w-[80%] h-[55%] pt-7">
+      <div className="hidden  flex-col items-center lg:grid lg:grid-cols-3 lg:grid-row-3  lg:grid-flow-col gap-x-10 gap-y-8 w-[1090px] max-h-[650px]">
+        <section className="hover:scale-105 transition-all duration-500 h-[650px] divide-y divide-[#DADADA] flex flex-col items-center row-span-3 col-span-1  border border-[#DADADA] rounded-md">
+          <div className="w-[80%] h-[48%] pt-7">
             <p className="text-[#685DC5] font-bold mb-7 text-lg">
               Scholarship value
             </p>
@@ -50,27 +50,27 @@ const Layer2 = () => {
           </div>
         </section>
 
-        <section className="flex flex-col items-center row-span-1 col-span-1 border border-[#DADADA] rounded-md">
+        <section className="hover:scale-105 transition-all duration-500 flex flex-col items-center row-span-1 col-span-1 border border-[#DADADA] rounded-md h-[18rem]">
           <div className="w-[80%]  pt-7">
             <p className="text-[#685DC5] font-bold mb-3 text-lg">
               Study commitment
             </p>
             <p className="text-[#535353]  text-3xl">3 hours / day</p>
           </div>
-          <div className="w-[10%] border-b top-4 relative right-[7.2rem] mb-10 "></div>
+          <div className="w-[10%] border-b top-4 relative right-[7.2rem] mb-10  "></div>
           <p className="w-[80%] text-[#535353]">
             You will complete 15 modules to graduate. Daily classes are 3 hours,
             plus coursework to complete in your own time.
           </p>
         </section>
 
-        <section className="row-span-2 col-span-2 pt-2 ">
-          <fieldset className="border-t border-solid  text-center border-t-[#DADADA] mb-6 ">
+        <section className="row-span-2 col-span-2  ">
+          <fieldset className="border-t border-solid  text-center border-t-[#DADADA] mb-[2rem] ">
             <legend className="px-3 font-bold text-[#535353]">
               GRADUATION
             </legend>
           </fieldset>
-          <div className="border border-solid border-[#DADADA] w-full flex flex-col items-center  h-[243px] pt-6 rounded-md">
+          <div className="hover:scale-105 transition-all duration-500 border border-solid border-[#DADADA] w-full flex flex-col items-center  h-[275px] pt-7 rounded-md">
             <div className="w-[80%]  pt-3">
               <p className="text-[#685DC5] font-bold mb-3 text-lg">
                 A full-time contract
@@ -86,7 +86,7 @@ const Layer2 = () => {
           </div>
         </section>
 
-        <section className="flex flex-col items-center row-span-1 col-span-1 border border-[#DADADA] rounded-md">
+        <section className="hover:scale-105 transition-all duration-500 flex flex-col items-center row-span-1 col-span-1 border border-[#DADADA] rounded-md h-[18rem]">
           <div className="w-[80%]  pt-7">
             <p className="text-[#685DC5] font-bold mb-3 text-lg">
               Work commitment
@@ -101,8 +101,8 @@ const Layer2 = () => {
           </p>
         </section>
       </div>
-    </section>
-  );
-};
+    </div>
+  )
+}
 
-export default Layer2;
+export default SectionPC

@@ -3,11 +3,15 @@ import zeptolabLogo from "../assets/zeptolabLogo.png";
 import pattern from "../assets/pattern.png";
 const Layer1 = () => {
   return (
-    <main className="flex w-full justify-center pb-20 ">
-      <section className="justify-center items-center flex  w-[990px]  ">
+    <main className="flex w-screen justify-center items-center pb-20 flex-col-reverse lg:flex-row ">
+
+      <section className="justify-center items-center flex   w-[50%] ">
         <article className="w-[28rem]">
-          <img src={layer1Icon} className="select-none relative top-44 left-60 -z-10" />
-          <p className="leading-tight text-[#685DC5] text-5xl font-bold ">
+          <img
+            src={layer1Icon}
+            className="select-none relative top-44 left-60 -z-10 hidden lg:block"
+          />
+          <p className="hidden lg:block leading-tight text-[#685DC5] text-5xl font-bold ">
             Interaction Design Apprenticeship
           </p>
           <p className=" font-bold text-xl text-[#535353] my-9">
@@ -18,6 +22,12 @@ const Layer1 = () => {
             eliminate the barriers to accessing exceptional education and career
             opportunities through a Masters Fellowship.
           </p>
+          <p className="lg:hidden w-[27rem] text-[#535353] text-xl mb-9">
+            Scholarship candidates will receive full financial support to
+            complete their Masters program at Harbour.Space while gaining
+            invaluable work experience through an internship with SCG, a leading
+            company in the industry.
+          </p>
           <p className="text-[#535353] text-xl mb-12">
             <span className="font-bold">Position: </span>Marketing Performance
           </p>
@@ -27,15 +37,28 @@ const Layer1 = () => {
         </article>
       </section>
 
-      <section className=" items-center flex flex-col w-[990px]  pt-10">
+      <section className=" items-center flex flex-col w-[50%]    ">
+        <div className="relative">
+        <p className="lg:hidden mt-24 leading-tight text-[#685DC5] text-3xl font-bold w-[28rem] mb-10">
+          Interaction Design Apprenticeship
+        </p>
+        <img
+            src={layer1Icon}
+            className="select-none absolute top-0 right-32 -z-10 w-44 "
+          />
+          </div>
         <img
           src={pattern}
           alt="Pattern"
-          className="select-none relative top-[37rem] left-32 w-[500px]  -z-10  "
+          className="hidden lg:block relative top-[37rem] left-32 w-[500px]  -z-10  "
         />
         <div className="w-[28rem]">
           <div className="flex items-center mb-10">
-            <img src={zeptolabLogo} alt="ZeptoLogo" className="select-none mr-7" />
+            <img
+              src={zeptolabLogo}
+              alt="ZeptoLogo"
+              className="select-none mr-7"
+            />
             <div className="text-[#535353]">
               <p className="text-lg">Powered by:</p>
               <p className="text-2xl">Zeptolab</p>
